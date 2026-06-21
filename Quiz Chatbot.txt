@@ -1,0 +1,25 @@
+print("Quiz Chatbot")
+
+score = 0
+
+q1 = input("Python kis type ki language hai? ")
+if q1.lower() == "programming":
+    score += 1
+
+q2 = input("2 + 2 = ? ")
+if q2 == "4":
+    score += 1
+
+q3 = input("India ki capital kya hai? ")
+if q3.lower() == "delhi":
+    score += 1
+
+print("\nQuiz Completed!")
+print("Your Score:", score, "/ 3")
+
+if score == 3:
+    print("Bot: Excellent!")
+elif score == 2:
+    print("Bot: Good Job!")
+else:
+    print("Bot: Keep Practicing!")
