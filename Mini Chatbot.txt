@@ -1,0 +1,25 @@
+print("=== Mini Chatbot ===")
+
+while True:
+    print("\n1. Greeting")
+    print("2. Time")
+    print("3. Joke")
+    print("4. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        print("Bot: Hello! Nice to meet you.")
+    
+    elif choice == "2":
+        print("Bot: Sorry, I cannot show real time, but it's a great time to learn Python!")
+    
+    elif choice == "3":
+        print("Bot: Why did the programmer quit his job? Because he didn't get arrays!")
+    
+    elif choice == "4":
+        print("Bot: Goodbye!")
+        break
+    
+    else:
+        print("Bot: Invalid choice. Try again.")
