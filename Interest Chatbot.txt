@@ -1,0 +1,20 @@
+print(" Interest Chatbot")
+
+while True:
+    topic = input("Enter your favorite topic (sports/music/coding) or 'stop': ")
+
+    if topic == "sports":
+        print("Bot: Sports keep us fit and active.")
+
+    elif topic == "music":
+        print("Bot: Music helps us relax and enjoy life.")
+
+    elif topic == "coding":
+        print("Bot: Coding is a great skill for problem-solving.")
+
+    elif topic == "stop":
+        print("Bot: Thanks for chatting!")
+        break
+
+    else:
+        print("Bot: Sorry, I don't know much about that topic.")
