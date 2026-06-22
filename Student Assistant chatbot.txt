@@ -1,0 +1,28 @@
+print("Welcome to Student Assistant Chatbot")
+
+name = input("Enter your name: ")
+print(f"Hello {name}! How can I help you today?")
+
+while True:
+    print("\n1. Python")
+    print("2. C Programming")
+    print("3. Career Advice")
+    print("4. Exit")
+
+    choice = input("Choose an option: ")
+
+    if choice == "1":
+        print("Python is an easy and powerful programming language.")
+
+    elif choice == "2":
+        print("C is a foundational programming language used in system programming.")
+
+    elif choice == "3":
+        print("Keep learning, build projects, and improve your problem-solving skills.")
+
+    elif choice == "4":
+        print("Thank you for using Student Assistant Chatbot!")
+        break
+
+    else:
+        print("Invalid option. Please try again.")
